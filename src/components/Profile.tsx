@@ -16,17 +16,17 @@ import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/achris-alonzo30",
+        link: "https://github.com/bryanwills",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/lonzochris",
+        link: "https://linkedin.com/in/bryan-wills",
         icon: <FaLinkedin className="size-4" />
     },
     {
         name: "X (Twitter)",
-        link: "https://x.com/lonz_chris",
+        link: "https://x.com/bryan_wills",
         icon: <FaXTwitter className="size-4" />
     }
     // TODO: Add more socials here
@@ -50,9 +50,9 @@ export const Profile = () => {
                                 className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                             />
                             <div className="flex flex-col items-start justify-center">
-                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                                <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Bryan Wills</h1>
                                 <p className="text-sm md:text-base text-muted-foreground">
-                                    Solopreneur Developer
+                                    Systems Engineer/Software Engineer
                                 </p>
                             </div>
                         </div>
@@ -60,7 +60,8 @@ export const Profile = () => {
                     </div>
 
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a software engineer with a passion for building products that help people live better lives.
+                        I am a Systems Engineer and Software Engineer (in training). I hope to build apps to help
+                        people use AI in their everyday lives to make their life better and leverage AI where needed.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume */}
