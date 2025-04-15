@@ -8,40 +8,34 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Senior Systems Engineer", // TODO: Replace with actual role
+        company: "Encore Technologies", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2020 - Present",
+        duration: "October 2023 - April 2025",
         description:
             "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+        link: "https://encore.tech",
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Systems Administrator and Application Developer", // TODO: Replace with actual role
+        company: "Black Diamond Pest Control", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
+        duration: "July 2022 - August 2023",
         description:
             "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+        link: "https://bdpest.com",
+        images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Systems Administrator", // TODO: Replace with actual role
+        company: "Gordon Darby Inc.", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
+        duration: "Janurary 2018 - July 2022",
         description:
             "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
         link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
+        images: [],
     },
 ]
 
@@ -78,11 +72,11 @@ export const Experience = () => {
                                 </p>
                                 <p className="text-sm mt-2">{j.description}</p>
                                 {/* Job Images */}
-                                <JobImages 
-                                    role={j.role} 
+                                <JobImages
+                                    role={j.role}
                                     link={j.link}
-                                    images={j.images} 
-                                    duration={j.duration} 
+                                    images={j.images}
+                                    duration={j.duration}
                                 />
                             </li>
                         ))}
