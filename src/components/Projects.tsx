@@ -7,36 +7,30 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const projects = [
     {
-        title: "E-commerce Platform",
-        description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
+        title: "JarvisAI Personal Assistant",
+        description: "A full-stack web app that will integrate AI with various connected services as a personal assistant.",
         tech: "React",
         link: "#",
     },
     {
-        title: "Task Management App",
-        description: "A productivity app built with React Native and Firebase",
-        tech: "React Native",
-        link: "#",
+        title: "Shorty a URL shortening service",
+        description: "A URL shortner in TypeScript, NextJS, TailwindCSS, and PrismaDB for Code Louisville class",
+        tech: "NextJS",
+        link: "https://github.com/bryanwills/shorty",
     },
     {
-        title: "Data Visualization Dashboard",
-        description: "An interactive dashboard using D3.js and Vue.js",
-        tech: "Vue.js",
-        link: "#",
-    },
-    {
-        title: "AI Chatbot",
-        description: "A machine learning powered chatbot using Python and TensorFlow",
-        tech: "Python",
-        link: "#",
+        title: "Coin Dashboard",
+        description: "Inventory CRUD app with a dashboard Web UI to track coins from a coin colletion.",
+        tech: "TypeScript",
+        link: "https://github.com/bryanwills/coin-dashboard",
     },
 ]
 
 const techColors = {
     "React": "bg-blue-500",
     "React Native": "bg-green-500",
-    "Vue.js": "bg-purple-500",
-    "Python": "bg-yellow-500",
+    "NextJS": "bg-purple-500",
+    "TypeScript": "bg-yellow-500",
 }
 
 export const Projects = () => {
