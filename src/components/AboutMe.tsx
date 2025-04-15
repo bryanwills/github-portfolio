@@ -11,7 +11,7 @@ import useMediaQuery from "@/hook/useMediaQuery";
 
 export const AboutMe = () => {
     const isDesktopOrLaptop  = useMediaQuery("(min-width: 1224px)");
-    return (    
+    return (
 
     <Card className="mb-6">
         <CardHeader className="flex flex-row justify-between items-baseline">
@@ -21,7 +21,7 @@ export const AboutMe = () => {
         <CardContent>
             <p className="text-muted-foreground">
                 {/* Write 1-2 sentences about yourself */}
-                I am a software engineer with a passion for building scalable and efficient web applications.
+                I am a software engineer in training with a passion for web applications, self-hosted services, etc.
             </p>
         </CardContent>
     </Card>
